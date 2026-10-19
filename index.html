@@ -318,7 +318,7 @@ var CONFIG = {
 
   document.getElementById('navBtn').addEventListener('click', function(){
     var q = encodeURIComponent(CONFIG.address);
-    window.open('https://uri.amap.com/search?keyword=' + q, '_blank');
+    location.href = 'https://uri.amap.com/search?keyword=' + q;
   });
 
   document.getElementById('calBtn').addEventListener('click', function(){
